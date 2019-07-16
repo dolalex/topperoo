@@ -1,0 +1,253 @@
+<!-- doctype, styles, etc-->
+//= templates/_head.html
+//= templates/_navbar.html
+
+<div class="app">
+  <div class="container">
+    <div class="app-container">
+
+      <aside class="app-sidebar">
+
+        <div class="main-sidebar box">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="icon-Layout"></i>
+                Layout
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                <i class="icon-Design"></i>
+                Design
+              </a>
+              <ul class="sub-menu open-desktop">
+                <li><a href="#"><i class="icon-Design-library"></i> Library</a></li>
+                <li><a href="#"><i class="icon-Photo"></i> Photo</a></li>
+                <li><a href="#"><i class="icon-Text"></i> Text</a></li>
+                <li><a href="#"><i class="icon-Clip-art"></i> Clip Art</a></li>
+                <li class="active"><a href="#"><i class="icon-Color"></i> Color</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icon-My-saved-designs"></i>
+                My saved designs
+              </a>
+            </li>
+          </ul>
+
+          <div class="copyright">Powered by Topperoo</div>
+        </div>
+
+        <div class="scroll-sidebar box desktop-only">
+
+          <div class="field">
+            <h3 class="mb20">Color</h3>
+          </div>
+
+          <div class="field">
+            <div class="title">Template colors:</div>
+
+            <div class="colors">
+              <div class="color-box" style="background-color: #FFD898;"></div>
+              <div class="color-box" style="background-color: #9B9B9B;"></div>
+              <div class="color-box" style="background-color: #F8E71C;"></div>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="title">Default colors:</div>
+
+            <div class="colors">
+              <div class="color-box" style="background-color: #D0021B;"></div>
+              <div class="color-box" style="background-color: #F5A623;"></div>
+              <div class="color-box" style="background-color: #F8E71C;"></div>
+              <div class="color-box" style="background-color: #8B572A;"></div>
+              <div class="color-box" style="background-color: #7ED321;"></div>
+              <div class="color-box" style="background-color: #417505;"></div>
+              <div class="color-box" style="background-color: #BD10E0;"></div>
+              <div class="color-box" style="background-color: #9013FE;"></div>
+              <div class="color-box" style="background-color: #4A90E2;"></div>
+              <div class="color-box" style="background-color: #50E3C2;"></div>
+              <div class="color-box" style="background-color: #B8E986;"></div>
+              <div class="color-box" style="background-color: #8FF899;"></div>
+              <div class="color-box" style="background-color: #000000;"></div>
+              <div class="color-box" style="background-color: #4A4A4A;"></div>
+              <div class="color-box" style="background-color: #9B9B9B;"></div>
+              <div class="color-box" style="background-color: #FFFFFF; border-color: #9B9B9B;"></div>
+              <div class="color-box" style="background-color: #997CF6;"></div>
+              <div class="color-box" style="background-color: #7D36F7;"></div>
+              <div class="color-box" style="background-color: #F68AC0;"></div>
+              <div class="color-box" style="background-color: #FF3185;"></div>
+              <div class="color-box" style="background-color: #0B20FA;"></div>
+              <div class="color-box" style="background-color: #8AAFDA;"></div>
+              <div class="color-box" style="background-color: #21BDD4;"></div>
+              <div class="color-box" style="background-color: #FFD898;"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </aside>
+
+      <main class="app-workspace">
+
+        //= templates/_top-panel.html
+
+
+        <div class="workspace-content box">
+          <div class="workspace-content-header d-flex justify-content-space-between align-items-center mb10">
+            <div class="d-flex-item title">
+              <strong class="mr10">80mm Circles (6)</strong>
+              <span class="fs-extra-small">A4 sheet</span>
+            </div>
+            <div class="d-flex-item right">
+              <div class="workspace-notification">
+                Сhanges have been saved
+              </div>
+            </div>
+          </div>
+          <div class="main-template">
+            <img src="img/template-main-2.svg" alt="">
+
+            <ul class="layer-tools disabled" style="position: absolute; top: 35px; left: -40px;">
+              <li>
+                <a href="#">
+                  <i class="icon-Forward"></i>
+                  Forward
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Backward"></i>
+                  Backward
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Crop"></i>
+                  Crop
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Crop"></i>
+                  Crop
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Dublicate"></i>
+                  Dublicate
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Delete"></i>
+                  Delete
+                </a>
+              </li>
+            </ul>
+
+            <ul class="layer-tools-small" style="position: absolute; top: 300px; right: 65px;">
+              <li><a href="#"><i class="icon-update"></i></a></li>
+            </ul>
+            
+            <div style="width: 152px; position: absolute; top: 13px; left: 14px;">
+              <img src="img/Edit-topper.png" alt="">
+            </div>
+
+            <div style="width: 152px; position: absolute; top: 149px; right: 3px;">
+              <img src="img/Edit-topper-2.png" alt="">
+            </div>
+          </div>
+
+          <div class="workspace-tools">
+            <div class="d-flex">
+              <div class="d-flex-item">
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Undo"></i><span class="tooltip">Undo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Redo"></i><span class="tooltip">Redo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Reset"></i><span class="tooltip">Reset</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-View"></i><span class="tooltip">Preview</span></button>
+              </div>
+              <div class="d-flex-item right">
+                <button data-toggle="tooltip" data-placement="top" class="btn-share"><i class="icon-Share"></i> Share <span class="tooltip">Share</span></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="workspace-actions">
+            <div class="d-flex">
+              <div class="d-flex-item left">
+                <div class="btn-details">
+                  <a href="#" class="btn btn-secondary"><span class="desktop-only">Order</span> details <i class="chevron-arrow-down"></i></a>
+                  <span class="price">£ 8.99 </span>
+                  <div class="btn-details-box">
+                    <div class="title">No. of sheets</div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex-item right">
+                <a href="#" class="btn btn-primary">Add to card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <div class="app-mobile-tab open">
+    <div class="field">
+      <h3 class="mb20">Color</h3>
+    </div>
+
+    <div class="field">
+      <div class="title">Template colors:</div>
+
+      <div class="colors">
+        <div class="color-box" style="background-color: #FFD898;"></div>
+        <div class="color-box" style="background-color: #9B9B9B;"></div>
+        <div class="color-box" style="background-color: #F8E71C;"></div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="title">Default colors:</div>
+
+      <div class="colors">
+        <div class="color-box" style="background-color: #D0021B;"></div>
+        <div class="color-box" style="background-color: #F5A623;"></div>
+        <div class="color-box" style="background-color: #F8E71C;"></div>
+        <div class="color-box" style="background-color: #8B572A;"></div>
+        <div class="color-box" style="background-color: #7ED321;"></div>
+        <div class="color-box" style="background-color: #417505;"></div>
+        <div class="color-box" style="background-color: #BD10E0;"></div>
+        <div class="color-box" style="background-color: #9013FE;"></div>
+        <div class="color-box" style="background-color: #4A90E2;"></div>
+        <div class="color-box" style="background-color: #50E3C2;"></div>
+        <div class="color-box" style="background-color: #B8E986;"></div>
+        <div class="color-box" style="background-color: #8FF899;"></div>
+        <div class="color-box" style="background-color: #000000;"></div>
+        <div class="color-box" style="background-color: #4A4A4A;"></div>
+        <div class="color-box" style="background-color: #9B9B9B;"></div>
+        <div class="color-box" style="background-color: #FFFFFF; border-color: #9B9B9B;"></div>
+        <div class="color-box" style="background-color: #997CF6;"></div>
+        <div class="color-box" style="background-color: #7D36F7;"></div>
+        <div class="color-box" style="background-color: #F68AC0;"></div>
+        <div class="color-box" style="background-color: #FF3185;"></div>
+        <div class="color-box" style="background-color: #0B20FA;"></div>
+        <div class="color-box" style="background-color: #8AAFDA;"></div>
+        <div class="color-box" style="background-color: #21BDD4;"></div>
+        <div class="color-box" style="background-color: #FFD898;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- scripts, footer -->
+//= templates/_footer.html

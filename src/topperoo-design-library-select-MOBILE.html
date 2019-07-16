@@ -1,0 +1,297 @@
+<!-- doctype, styles, etc-->
+//= templates/_head.html
+//= templates/_navbar.html
+
+<div class="app">
+  <div class="container">
+    <div class="app-container">
+
+      <aside class="app-sidebar">
+
+        <div class="main-sidebar box">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="icon-Layout"></i>
+                Layout
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                <i class="icon-Design"></i>
+                Design
+              </a>
+              <ul class="sub-menu open-desktop">
+                <li class="active"><a href="#"><i class="icon-Design-library"></i> Library</a></li>
+                <li><a href="#"><i class="icon-Photo"></i> Photo</a></li>
+                <li><a href="#"><i class="icon-Text"></i> Text</a></li>
+                <li><a href="#"><i class="icon-Clip-art"></i> Clip Art</a></li>
+                <li><a href="#"><i class="icon-Color"></i> Color</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icon-My-saved-designs"></i>
+                My saved designs
+              </a>
+            </li>
+          </ul>
+
+          <div class="copyright">Powered by Topperoo</div>
+        </div>
+
+        <div class="scroll-sidebar box desktop-only">
+          
+          <div class="field">
+            <div class="form-search">
+              <input type="text" placeholder="Search">
+              <i class="icon-search"></i>
+            </div>
+          </div>
+
+          <div class="filters">
+            <h4 class="filters-title"><i class="icon-Filter"></i> Filters</h4>
+
+            <div class="dropdown">
+              <a href="#" class="dropdown-link">Sort By</a>
+              <div class="dropdown-box"></div>
+            </div>
+
+            <div class="dropdown open">
+              <a href="#" class="dropdown-link">Any types of shape</a>
+              <div class="dropdown-box">
+                <ul><span>Any types of shape</span>
+                  <li><a href="#">Round</a></li>
+                  <li><a href="#">Square</a></li>
+                  <li><a href="#">Other shape</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <h3>Add pattern</h3>
+
+            <div class="title-small d-flex">
+              <div class="d-flex-item">Free Designs</div>
+              <div class="d-flex-item right">
+                <a href="#">All <i class="chevron-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="pattern-images">
+              <div class="pattern-item">
+                <img src="img/Image1.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image2.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image3.png" alt="">
+                <div class="badge">royalty</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+
+            <div class="title-small d-flex">
+              <div class="d-flex-item">Animals</div>
+              <div class="d-flex-item right">
+                <a href="#">All <i class="chevron-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="pattern-images">
+              <div class="pattern-item">
+                <img src="img/Image4.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image5.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image6.png" alt="">
+                <div class="badge">royalty</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+
+            <div class="title-small d-flex">
+              <div class="d-flex-item">Birthday</div>
+              <div class="d-flex-item right">
+                <a href="#">All <i class="chevron-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="pattern-images">
+              <div class="pattern-item">
+                <img src="img/Image1.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image2.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image3.png" alt="">
+                <div class="badge">royalty</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+
+            <div class="title-small d-flex">
+              <div class="d-flex-item">Borders</div>
+              <div class="d-flex-item right">
+                <a href="#">All <i class="chevron-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="pattern-images">
+              <div class="pattern-item">
+                <img src="img/Image4.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image5.png" alt="">
+                <div class="badge">Free</div>
+              </div>
+              <div class="pattern-item">
+                <img src="img/Image6.png" alt="">
+                <div class="badge">royalty</div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </aside>
+
+      <main class="app-workspace">
+
+        //= templates/_top-panel.html
+
+
+        <div class="workspace-content box">
+          <div class="workspace-content-header d-flex justify-content-space-between align-items-center mb10">
+            <div class="d-flex-item title">
+              <strong class="mr10">80mm Circles (6)</strong>
+              <span class="fs-extra-small">A4 sheet</span>
+            </div>
+            <div class="d-flex-item right">
+              <div class="workspace-notification">
+                Сhanges have been saved
+              </div>
+            </div>
+          </div>
+          <div class="main-template">
+            <img src="img/template-main.svg" alt="">
+
+            <ul class="layer-tools" style="position: absolute; top: 20px; left: -40px;">
+              <li>
+                <a href="#">
+                  <i class="icon-Crop"></i>
+                  Crop
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Dublicate"></i>
+                  Dublicate
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Delete"></i>
+                  Delete
+                </a>
+              </li>
+            </ul>
+
+            <ul class="layer-tools-small" style="position: absolute; top: 160px; left: 75px;">
+              <li><a href="#"><i class="icon-update"></i></a></li>
+            </ul>
+            
+            <div style="width: 152px; position: absolute; top: 13px; left: 14px;">
+              <img src="img/Edit-topper.png" alt="">
+            </div>
+          </div>
+
+          <div class="workspace-tools">
+            <div class="d-flex">
+              <div class="d-flex-item">
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Undo"></i><span class="tooltip">Undo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Redo"></i><span class="tooltip">Redo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Reset"></i><span class="tooltip">Reset</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-View"></i><span class="tooltip">Preview</span></button>
+              </div>
+              <div class="d-flex-item right">
+                <button data-toggle="tooltip" data-placement="top" class="btn-share"><i class="icon-Share"></i> Share <span class="tooltip">Share</span></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="workspace-actions">
+            <div class="d-flex">
+              <div class="d-flex-item left">
+                <div class="btn-details">
+                  <a href="#" class="btn btn-secondary"><span class="desktop-only">Order</span> details <i class="chevron-arrow-down"></i></a>
+                  <span class="price">£ 8.99 </span>
+                  <div class="btn-details-box">
+                    <div class="title">No. of sheets</div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex-item right">
+                <a href="#" class="btn btn-primary">Add to card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+
+  <div class="app-mobile-tab open">
+
+
+
+
+    <div class="field">
+      <h3>Add pattern</h3>
+
+      <div class="add-image">
+        <div class="add-image-box">
+          <img src="img/add-image.png" alt="">
+          <span class="badge">Royalty</span>
+        </div>
+        <div class="input-quantity">
+          <button>-</button>
+          <span class="number">1</span>
+          <button>+</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="field-actions justify-content-center">
+      <a href="#" class="btn btn-secondary">Cancel</a>
+      <a href="#" class="btn btn-primary">Add Pattern</a>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- scripts, footer -->
+//= templates/_footer.html

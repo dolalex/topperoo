@@ -1,0 +1,143 @@
+.filters {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &-title {
+    font-size: $fs-smaller;
+    color: $grey;
+    margin-right: 2px;
+  }
+
+  .dropdown {
+    margin-right: 2px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.drag-and-drop-area {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+  border: 1px dashed #d1d1d1;
+  border-radius: 6px;
+  color: $grey;
+}
+
+.facebook-upload {
+  text-align: center;
+  font-weight: 700;
+  color: #4064AD;
+  text-transform: uppercase;
+
+  a {
+    color: inherit;
+  }
+
+  i {
+    margin-left: 10px;
+  }
+}
+
+.uploaded-photos {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .uploaded-photo-item {
+    position: relative;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+
+    .uploaded-photo-box {
+      position: relative;
+      width: 71px;
+      height: 71px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+
+      .progress {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        width: calc(100% - 10px);
+      }
+    }
+
+    .input-quantity {
+      margin-top: 5px;
+    }
+
+    .icon {
+      display: none;
+      position: absolute;
+      top: -6px;
+      right: -6px;
+
+      .icon-Check-circle {
+        font-size: 15px;
+      }
+    }
+
+    &.active {
+
+      .uploaded-photo-box {
+        border-color: $brand-color;
+      }
+
+      .icon {
+        display: block;
+      }
+    }
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+}
+
+.text-style {
+  display: flex;
+  flex-wrap: wrap;
+
+  button {
+    width: 45px;
+    height: 50px;
+    line-height: 50px;
+    background: #FEF7EF;
+    color: $grey-text;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.active {
+      color: $grey;
+    }
+
+    &.text-style-normal {
+      font-weight: normal;
+    }
+
+    &.text-style-bold {
+      font-weight: bold;
+    }
+
+    &.text-style-italic {
+      font-style: italic;
+    }
+
+    &:first-child {
+      border-radius: 6px 0 0 6px;
+    }
+
+    &:last-child {
+      border-radius: 0 6px 6px 0;
+    }
+  }
+}

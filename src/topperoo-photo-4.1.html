@@ -1,0 +1,251 @@
+<!-- doctype, styles, etc-->
+//= templates/_head.html
+//= templates/_navbar.html
+
+<div class="app">
+  <div class="container">
+    <div class="app-container">
+
+      <aside class="app-sidebar">
+
+        <div class="main-sidebar box">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="icon-Layout"></i>
+                Layout
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                <i class="icon-Design"></i>
+                Design
+              </a>
+              <ul class="sub-menu open">
+                <li><a href="#"><i class="icon-Design-library"></i> Library</a></li>
+                <li class="active"><a href="#"><i class="icon-Photo"></i> Photo</a></li>
+                <li><a href="#"><i class="icon-Text"></i> Text</a></li>
+                <li><a href="#"><i class="icon-Clip-art"></i> Clip Art</a></li>
+                <li><a href="#"><i class="icon-Color"></i> Color</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icon-My-saved-designs"></i>
+                My saved designs
+              </a>
+            </li>
+          </ul>
+
+          <div class="copyright">Powered by Topperoo</div>
+        </div>
+
+        <div class="scroll-sidebar box">
+
+          <div class="field">
+            <h3>Add photo(s)</h3>
+          </div>
+
+          <div class="field">
+            <div class="drag-and-drop-area">
+              Drag and <br>
+              drop it here
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="facebook-upload">
+              <a href="#">Upload from <i class="icon-Facebook"></i></a>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="title">Uploaded photos:</div>
+
+            <div class="uploaded-photos">
+              <div class="uploaded-photo-item">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image7.png" alt="">
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+              <div class="uploaded-photo-item active">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image8.png" alt="">
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+                <div class="input-quantity">
+                  <button>-</button>
+                  <span class="number">1</span>
+                  <button>+</button>
+                </div>
+              </div>
+              <div class="uploaded-photo-item">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image9.png" alt="">
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+              <div class="uploaded-photo-item">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image10.png" alt="">
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+              <div class="uploaded-photo-item">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image11.png" alt="">
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+              <div class="uploaded-photo-item">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image7.png" alt="">
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+              <div class="uploaded-photo-item uploading">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image8.png" alt="">
+
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+              <div class="uploaded-photo-item uploading">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image9.png" alt="">
+
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+              <div class="uploaded-photo-item">
+                <div class="uploaded-photo-box">
+                  <img src="img/Image10.png" alt="">
+                </div>
+                <div class="icon">
+                  <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </aside>
+
+      <main class="app-workspace">
+
+        //= templates/_top-panel.html
+
+
+        <div class="workspace-content box">
+          <div class="workspace-content-header d-flex justify-content-space-between align-items-center mb10">
+            <div class="d-flex-item title">
+              <strong class="mr10">80mm Circles (6)</strong>
+              <span class="fs-extra-small">A4 sheet</span>
+            </div>
+            <div class="d-flex-item right">
+              <div class="workspace-notification">
+                Сhanges have been saved
+              </div>
+            </div>
+          </div>
+          <div class="main-template">
+            <img src="img/template-main.svg" alt="">
+
+            <ul class="layer-tools" style="position: absolute; top: 20px; left: -40px;">
+              <li>
+                <a href="#">
+                  <i class="icon-Crop"></i>
+                  Crop
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Dublicate"></i>
+                  Dublicate
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon-Delete"></i>
+                  Delete
+                </a>
+              </li>
+            </ul>
+
+            <ul class="layer-tools-small" style="position: absolute; top: 160px; left: 65px;">
+              <li><a href="#"><i class="icon-close"></i></a></li>
+              <li><a href="#"><i class="icon-check"></i></a></li>
+            </ul>
+            
+            <div style="width: 152px; position: absolute; top: 13px; left: 14px;">
+              <img src="img/Edit-topper.png" alt="">
+            </div>
+          </div>
+
+          <div class="workspace-tools">
+            <div class="d-flex">
+              <div class="d-flex-item">
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Undo"></i><span class="tooltip">Undo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Redo"></i><span class="tooltip">Redo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Reset"></i><span class="tooltip">Reset</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-View"></i><span class="tooltip">Preview</span></button>
+              </div>
+              <div class="d-flex-item right">
+                <button data-toggle="tooltip" data-placement="top" class="btn-share"><i class="icon-Share"></i> Share <span class="tooltip">Share</span></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="workspace-actions">
+            <div class="d-flex">
+              <div class="d-flex-item left">
+                <div class="btn-details">
+                  <a href="#" class="btn btn-secondary"><span class="desktop-only">Order</span> details <i class="chevron-arrow-down"></i></a>
+                  <span class="price">£ 8.99 </span>
+                  <div class="btn-details-box">
+                    <div class="title">No. of sheets</div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex-item right">
+                <a href="#" class="btn btn-primary">Add to card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- scripts, footer -->
+//= templates/_footer.html

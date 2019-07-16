@@ -1,0 +1,206 @@
+<!-- doctype, styles, etc-->
+//= templates/_head.html
+//= templates/_navbar.html
+
+<div class="app">
+  <div class="container">
+    <div class="app-container">
+
+      <aside class="app-sidebar">
+
+        <div class="main-sidebar box">
+          <ul>
+            <li class="active"><a href="#"><i class="icon-Layout"></i>Layout</a></li>
+            <li><a href="#"><i class="icon-Design"></i>Design</a></li>
+            <li><a href="#"><i class="icon-My-saved-designs"></i>My saved designs</a></li>
+          </ul>
+
+          <div class="copyright">Powered by Topperoo</div>
+        </div>
+
+        <div class="scroll-sidebar box">
+
+          <div class="tabs">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#tab-content-1" role="tab" aria-controls="tab-content-1" aria-selected="true">Templates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#tab-content-2" role="tab" aria-controls="tab-content-2" aria-selected="false">My collection</a>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane active" id="tab-content-1" role="tabpanel">
+
+                <div class="filters">
+                  <h4 class="filters-title"><i class="icon-Filter"></i> Filters</h4>
+
+                  <div class="dropdown">
+                    <a href="#" class="dropdown-link">Sort By</a>
+                    <div class="dropdown-box"></div>
+                  </div>
+
+                  <div class="dropdown">
+                    <a href="#" class="dropdown-link">Any types of shape</a>
+                    <div class="dropdown-box"></div>
+                  </div>
+                </div>
+
+                <div class="templates-box">
+                  <div class="template-item">
+                    <div class="template-image">
+                      <img src="img/template-1.svg" alt="">
+                      <div class="icon">
+                        <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                      </div>
+                    </div>
+                    <div class="template-info">
+                      <div class="price">£ 8.99</div>
+                      <p class="description">190mm Circle (1)
+                        A4 sheet</p>
+                    </div>
+                  </div>
+                  <div class="template-item">
+                    <div class="template-image">
+                      <img src="img/template-2.svg" alt="">
+                      <div class="icon">
+                        <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                      </div>
+                    </div>
+                    <div class="template-info">
+                      <div class="price">£ 8.99</div>
+                      <p class="description">190mm Circle (1)
+                        A4 sheet</p>
+                    </div>
+                  </div>
+                  <div class="template-item active">
+                    <div class="template-image">
+                      <img src="img/template-3.svg" alt="">
+                      <div class="icon">
+                        <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                      </div>
+                    </div>
+                    <div class="template-info">
+                      <div class="price">£ 8.99</div>
+                      <p class="description">190mm Circle (1)
+                        A4 sheet</p>
+                    </div>
+                  </div>
+                  <div class="template-item">
+                    <div class="template-image">
+                      <img src="img/template-4.svg" alt="">
+                      <div class="icon">
+                        <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                      </div>
+                    </div>
+                    <div class="template-info">
+                      <div class="price">£ 8.99</div>
+                      <p class="description">190mm Circle (1)
+                        A4 sheet</p>
+                    </div>
+                  </div>
+                  <div class="template-item">
+                    <div class="template-image">
+                      <img src="img/template-5.svg" alt="">
+                      <div class="icon">
+                        <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                      </div>
+                    </div>
+                    <div class="template-info">
+                      <div class="price">£ 8.99</div>
+                      <p class="description">190mm Circle (1)
+                        A4 sheet</p>
+                    </div>
+                  </div>
+                  <div class="template-item">
+                    <div class="template-image">
+                      <img src="img/template-6.svg" alt="">
+                      <div class="icon">
+                        <span class="icon-Check-circle"><span class="path1"></span><span class="path2"></span></span>
+                      </div>
+                    </div>
+                    <div class="template-info">
+                      <div class="price">£ 8.99</div>
+                      <p class="description">190mm Circle (1)
+                        A4 sheet</p>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn-secondary btn-block">OR Create Yours</a>
+
+              </div>
+              <div class="tab-pane" id="tab-content-2" role="tabpanel">
+                Tab 2
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </aside>
+
+      <main class="app-workspace">
+
+        //= templates/_top-panel.html
+
+
+        <div class="workspace-content box">
+          <div class="workspace-content-header d-flex justify-content-space-between align-items-center mb10">
+            <div class="d-flex-item title">
+              <strong class="mr10">80mm Circles (6)</strong>
+              <span class="fs-extra-small">A4 sheet</span>
+            </div>
+            <div class="d-flex-item right">
+              <div class="workspace-notification">
+                Сhanges have been saved
+              </div>
+            </div>
+          </div>
+          <div class="main-template">
+            <img src="img/template-main.svg" alt="">
+          </div>
+
+          <div class="workspace-tools">
+            <div class="d-flex">
+              <div class="d-flex-item">
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Undo"></i><span class="tooltip">Undo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Redo"></i><span class="tooltip">Redo</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-Reset"></i><span class="tooltip">Reset</span></button>
+                <button data-toggle="tooltip" data-placement="top"><i class="icon-View"></i><span class="tooltip">Preview</span></button>
+              </div>
+              <div class="d-flex-item right">
+                <button data-toggle="tooltip" data-placement="top" class="btn-share"><i class="icon-Share"></i> Share <span class="tooltip">Share</span></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="workspace-actions">
+            <div class="d-flex">
+              <div class="d-flex-item left">
+                <div class="btn-details">
+                  <a href="#" class="btn btn-secondary"><span class="desktop-only">Order</span> details <i class="chevron-arrow-down"></i></a>
+                  <span class="price">£ 8.99 </span>
+                  <div class="btn-details-box">
+                    <div class="title">No. of sheets</div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex-item right">
+                <a href="#" class="btn btn-primary">Add to card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- scripts, footer -->
+//= templates/_footer.html

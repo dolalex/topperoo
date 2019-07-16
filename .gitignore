@@ -1,0 +1,11 @@
+.sass-cache/
+*~
+*.zip
+*.rar
+Guardfile
+bower_components/
+node_modules/
+*.log
+*.sublime-project
+*.sublime-workspace
+.idea/

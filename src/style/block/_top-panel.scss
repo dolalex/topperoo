@@ -1,0 +1,89 @@
+.top-panel {
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 18px 30px;
+  margin-bottom: 15px;
+
+  @include min991 {
+    display: flex;
+  }
+
+  &-title {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+    strong {
+      margin-right: 10px;
+    }
+  }
+
+  &-tools {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: $brand-color;
+
+    button {
+      color: inherit;
+      margin: 0 8px;
+
+      .icon-Undo {
+        display: block;
+        margin-top: -5px;
+        transform: scale(1.1) translateX(1px);
+      }
+
+      .icon-Redo {
+        display: block;
+        margin-top: -5px;
+        transform: scale(1.1) translateX(1px);
+      }
+
+      .icon-Reset {
+        display: block;
+        transform: scale(1.2) translateX(3px);
+      }
+
+      .icon-Zoom {
+        display: block;
+        transform: scale(1.2) translateX(3px);
+      }
+
+      .icon-Rotate {
+        display: block;
+        transform: scale(1.1) translateX(4px);
+      }
+
+      .icon-View {
+        display: block;
+        transform: translateX(3px);
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .btn-share {
+      margin-left: 28px;
+      margin-right: 0px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 12px;
+      font-family: $font-family-main;
+
+      .icon-Share {
+        display: inline-block;
+        transform: scale(1.2) translate(-2px, 2px);
+      }
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+}

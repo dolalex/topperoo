@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?x60eor');
+  src:  url('../fonts/icomoon.eot?x60eor#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?x60eor') format('truetype'),
+  url('../fonts/icomoon.woff?x60eor') format('woff'),
+  url('../fonts/icomoon.svg?x60eor#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-update:before {
+  content: "\e91e";
+}
+.icon-Dublicate:before {
+  content: "\e91f";
+}
+.icon-Forward:before {
+  content: "\e920";
+}
+.icon-Backward:before {
+  content: "\e921";
+}
+.icon-Crop:before {
+  content: "\e922";
+}
+.icon-Delete:before {
+  content: "\e923";
+}
+
+.icon-search:before {
+  content: "\e906";
+}
+
+.icon-Redo:before {
+  content: "\e915";
+  font-size: 6px;
+}
+
+.icon-Undo:before {
+  content: "\e919";
+  font-size: 6px;
+}
+.icon-Reset:before {
+  content: "\e916";
+}
+.icon-Rotate:before {
+  content: "\e917";
+}
+.icon-Share:before {
+  content: "\e918";
+}
+.icon-View:before {
+  content: "\e91a";
+}
+.icon-Zoom:before {
+  content: "\e91b";
+}
+
+.icon-check:before {
+  content: "\e924";
+}
+.icon-close:before {
+  content: "\e925";
+}
+
+.icon-All-arrow-button:before {
+  content: "\e901";
+}
+.icon-Check-circle .path1:before {
+  content: "\e903";
+  color: $brand-color;
+}
+.icon-Check-circle .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: $white;
+}
+.icon-Edit-icon:before {
+  content: "\e907";
+}
+.icon-Facebook:before {
+  content: "\e909";
+}
+.icon-Filter:before {
+  content: "\e90b";
+}
+.icon-Filters-dropdown:before {
+  content: "\e90d";
+}
+
+.icon-Left-side .path1:before {
+  content: "\e90f";
+}
+.icon-Left-side .path2:before {
+  content: "\e910";
+  margin-left: -1.63671875em;
+  color: $white;
+}
+.icon-Right-side .path1:before {
+  content: "\e911";
+}
+.icon-Right-side .path2:before {
+  content: "\e912";
+  margin-left: -1.63671875em;
+  color: $white;
+}
+.icon-Sheet .path1:before {
+  content: "\e913";
+}
+.icon-Sheet .path2:before {
+  content: "\e914";
+  margin-left: -0.73046875em;
+}
+.icon-Clip-art:before {
+  content: "\e900";
+}
+.icon-Color:before {
+  content: "\e902";
+}
+.icon-Design:before {
+  content: "\e904";
+}
+.icon-Design-library:before {
+  content: "\e908";
+}
+.icon-Layout:before {
+  content: "\e91c";
+}
+.icon-My-saved-designs:before {
+  content: "\e90a";
+}
+.icon-Photo:before {
+  content: "\e90c";
+}
+.icon-Text:before {
+  content: "\e90e";
+}
+

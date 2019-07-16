@@ -1,0 +1,148 @@
+.main-sidebar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: $white;
+  z-index: 1000;
+  box-shadow: -2px -2px 8px 0 rgba(222,222,222,0.35);
+
+
+  @include min991 {
+    width: 118px;
+    padding-bottom: 60px;
+    border-right: 1px solid #ededed;
+    border-radius: 3px 0 0 3px;
+    text-align: center;
+    height: $app-container-height;
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+  }
+
+  &>ul {
+    display: flex;
+
+    @include min991 {
+      display: block;
+    }
+
+    &>li {
+      width: 100%;
+      text-align: center;
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s;
+
+      @include min991 {
+        border-left: 3px solid transparent;
+        border-bottom: none;
+      }
+
+      &.active {
+        border-color: $brand-color;
+
+        &>a {
+          background: #FEF7EF;
+          color: $brand-color;
+        }
+      }
+
+      &:hover {
+        border-color: $brand-color;
+      }
+
+      &>a {
+        display: block;
+        font-size: $fs-smaller;
+        color: $grey-text;
+        padding: 14px 15px;
+        font-weight: 600;
+        line-height: 1.2;
+        height: 70px;
+
+        @include min991 {
+          padding: 40px 15px;
+          height: auto;
+        }
+
+        &:hover {
+          background: #FEF7EF;
+        }
+
+        i {
+          font-size: 17px;
+          display: block;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .sub-menu {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: $white;
+    width: 100%;
+    display: none;
+
+    &.open {
+      display: block;
+    }
+
+    &.open-desktop {
+      @include min991 {
+        display: block;
+      }
+    }
+
+    @include min991 {
+      position: relative;
+    }
+
+    li {
+
+
+      &.active {
+        a {
+          color: $brand-color;
+          background-color: #FEF7EF;
+          border-color: $brand-color;
+          border-top: 1px solid $orange;
+
+          @include min991 {
+            border-top: none;
+            background-color: inherit;
+          }
+        }
+      }
+
+      a {
+        display: block;
+        color: $grey-text;
+        padding: 20px 0;
+        border-bottom: $default-border;
+
+        @include min991 {
+          border-bottom: none;
+        }
+
+        &:hover {
+          background: #FEF7EF;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    display: none;
+
+    @include min991 {
+      display: block;
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+      font-size: 8px;
+    }
+  }
+}

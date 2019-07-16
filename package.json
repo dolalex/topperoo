@@ -1,0 +1,35 @@
+{
+  "name": "gulp-sass-template",
+  "version": "1.0.0",
+  "repository": {
+    "name": "gulp-sass",
+    "type": "git",
+    "url": "https://bitbucket.org/ourstudio/gulp-sass"
+  },
+  "description": "gulp-sass-template",
+  "main": "",
+  "author": "Alex Dolzhenko <sitekarandash@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-connect": "*",
+    "gulp-cssmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-rigger": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "imagemin-pngquant": "*",
+    "opn": "*",
+    "rimraf": "*"
+  },
+  "dependencies": {
+    "compass-mixins": "^0.12.10",
+    "normalize.css": "^8.0.1"
+  }
+}
